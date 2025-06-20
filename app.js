@@ -47,7 +47,7 @@ Exercise 4: Access an array element
 Complete Exercise 4 in the space below:
 */
 
-const favFood = foods[0]
+const favFood = foods[1]
 
 console.log('Exercise 4 result:', favFood);
 
@@ -76,3 +76,18 @@ foods[1] = "sushi";
 foods.splice(2, 0, "cupcake")
 
 console.log('Exercise 6 result:', foods);
+
+/*
+Exercise 7: Using the `slice()` method
+
+1) Use the `slice()` method to create a new array that contains 'sushi' and 
+   'cupcake'.
+
+2) Assign it to a variable named `yummy`.
+
+Complete Exercise 7 in the space below:
+*/
+
+const  yummy = foods.slice(1,3);
+
+console.log('Exercise 7 result:', yummy);
